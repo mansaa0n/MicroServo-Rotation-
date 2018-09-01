@@ -1,0 +1,19 @@
+Micro servo must be connected to the GPIOs located on the DE2-115 Board.
+This application is written in Assemble language. Using Altera monitor program. 
+  
+Software used
+• Altera monitor program
+• Qsys
+• Quartus
+
+
+General info. (Understanding servos)
+  Servos are used in variety of applications such as Robots. Moreover, the micro servo used
+  in this assignment can be controlled by the Pulse Width Modulation (PWM) signal sent to it. In
+  explaining how it works, we can think of HIGH and LOW signals sent to the motor, this high
+  and low signal will generate a pulse, in the servos case this pulse has to be within a width of
+  time in order for the movement to happen. So, for example in case you want to move the servo
+  90 degrees, you need to send high signal for certain amount of time then you need to send low
+  signal right after this delay of time.
+
+
